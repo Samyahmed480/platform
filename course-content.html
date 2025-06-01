@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>محتوى الكورس</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+        
+            <span>Samy Ahmed</span>
+        </div>
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">الصفحه الرئيسية</a>
+            <a href="#" class="nav-link">للتواصل</a>
+            <input placeholder="بحث" type="search">
+        </div>
+    </nav>
+
+    <h1>حصص الكورس</h1>
+
+    <div class="lessons-container" style="max-width:700px;margin:2rem auto;padding:2rem;background:var(--card-dark);border-radius:12px;box-shadow:0 4px 16px rgba(0,0,0,0.13);">
+        <ul style="list-style:none;padding:0;">
+            <!-- مثال لقائمة واحدة، كررها مع تغيير العناوين والمحتوى -->
+            <li style="margin-bottom:1.5rem;">
+                <details style="border:1px solid var(--primary-color);border-radius:10px;overflow:hidden;background:rgba(30,30,40,0.95);box-shadow:0 2px 12px rgba(0,0,0,0.10);">
+                    <summary style="font-size:1.15rem;color:var(--primary-color);font-weight:bold;cursor:pointer;padding:1rem 1.2rem;outline:none;transition:background 0.2s;">
+                        الحصة 1: مقدمة في HTML
+                    </summary>
+                    <div style="padding:1.2rem 1.5rem 1.5rem 1.5rem;display:flex;flex-direction:column;gap:1.2rem;">
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--primary-color),var(--secondary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            مشاهدة الحصة
+                        </button>
+                        <div style="display:none;">
+                            <video controls style="width:100%;max-width:100%;border-radius:10px;background:#111;">
+                                <source src="lesson1.mp4" type="video/mp4">
+                                متصفحك لا يدعم تشغيل الفيديو.
+                            </video>
+                        </div>
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--secondary-color),var(--primary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            عرض التكليف
+                        </button>
+                        <div style="display:none;">
+                            <strong>التكليف:</strong>
+                            <p>أنشئ صفحة HTML بسيطة تحتوي على عنوان وفقرة.</p>
+                        </div>
+                    </div>
+                </details>
+            </li>
+            <li style="margin-bottom:1.5rem;">
+                <details style="border:1px solid var(--primary-color);border-radius:10px;overflow:hidden;background:rgba(30,30,40,0.95);box-shadow:0 2px 12px rgba(0,0,0,0.10);">
+                    <summary style="font-size:1.15rem;color:var(--primary-color);font-weight:bold;cursor:pointer;padding:1rem 1.2rem;outline:none;transition:background 0.2s;">
+                        الحصة 2: أساسيات CSS
+                    </summary>
+                    <div style="padding:1.2rem 1.5rem 1.5rem 1.5rem;display:flex;flex-direction:column;gap:1.2rem;">
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--primary-color),var(--secondary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            مشاهدة الحصة
+                        </button>
+                        <div style="display:none;">
+                            <video controls style="width:100%;max-width:100%;border-radius:10px;background:#111;">
+                                <source src="lesson2.mp4" type="video/mp4">
+                                متصفحك لا يدعم تشغيل الفيديو.
+                            </video>
+                        </div>
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--secondary-color),var(--primary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            عرض التكليف
+                        </button>
+                        <div style="display:none;">
+                            <strong>التكليف:</strong>
+                            <p>قم بتنسيق الصفحة السابقة باستخدام CSS (لون خلفية، لون نص، محاذاة).</p>
+                        </div>
+                    </div>
+                </details>
+            </li>
+            <li style="margin-bottom:1.5rem;">
+                <details style="border:1px solid var(--primary-color);border-radius:10px;overflow:hidden;background:rgba(30,30,40,0.95);box-shadow:0 2px 12px rgba(0,0,0,0.10);">
+                    <summary style="font-size:1.15rem;color:var(--primary-color);font-weight:bold;cursor:pointer;padding:1rem 1.2rem;outline:none;transition:background 0.2s;">
+                        الحصة 3: الروابط والصور
+                    </summary>
+                    <div style="padding:1.2rem 1.5rem 1.5rem 1.5rem;display:flex;flex-direction:column;gap:1.2rem;">
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--primary-color),var(--secondary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            مشاهدة الحصة
+                        </button>
+                        <div style="display:none;">
+                            <video controls style="width:100%;max-width:100%;border-radius:10px;background:#111;">
+                                <source src="lesson3.mp4" type="video/mp4">
+                                متصفحك لا يدعم تشغيل الفيديو.
+                            </video>
+                        </div>
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--secondary-color),var(--primary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            عرض التكليف
+                        </button>
+                        <div style="display:none;">
+                            <strong>التكليف:</strong>
+                            <p>أضف صورة ورابط إلى صفحتك.</p>
+                        </div>
+                    </div>
+                </details>
+            </li>
+            <li style="margin-bottom:1.5rem;">
+                <details style="border:1px solid var(--primary-color);border-radius:10px;overflow:hidden;background:rgba(30,30,40,0.95);box-shadow:0 2px 12px rgba(0,0,0,0.10);">
+                    <summary style="font-size:1.15rem;color:var(--primary-color);font-weight:bold;cursor:pointer;padding:1rem 1.2rem;outline:none;transition:background 0.2s;">
+                        الحصة 4: القوائم والجداول
+                    </summary>
+                    <div style="padding:1.2rem 1.5rem 1.5rem 1.5rem;display:flex;flex-direction:column;gap:1.2rem;">
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--primary-color),var(--secondary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            مشاهدة الحصة
+                        </button>
+                        <div style="display:none;">
+                            <video controls style="width:100%;max-width:100%;border-radius:10px;background:#111;">
+                                <source src="lesson4.mp4" type="video/mp4">
+                                متصفحك لا يدعم تشغيل الفيديو.
+                            </video>
+                        </div>
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--secondary-color),var(--primary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            عرض التكليف
+                        </button>
+                        <div style="display:none;">
+                            <strong>التكليف:</strong>
+                            <p>أنشئ قائمة وجداول بيانات بسيطة في صفحتك.</p>
+                        </div>
+                    </div>
+                </details>
+            </li>
+            <li style="margin-bottom:1.5rem;">
+                <details style="border:1px solid var(--primary-color);border-radius:10px;overflow:hidden;background:rgba(30,30,40,0.95);box-shadow:0 2px 12px rgba(0,0,0,0.10);">
+                    <summary style="font-size:1.15rem;color:var(--primary-color);font-weight:bold;cursor:pointer;padding:1rem 1.2rem;outline:none;transition:background 0.2s;">
+                        الحصة 5: النماذج (Forms)
+                    </summary>
+                    <div style="padding:1.2rem 1.5rem 1.5rem 1.5rem;display:flex;flex-direction:column;gap:1.2rem;">
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--primary-color),var(--secondary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            مشاهدة الحصة
+                        </button>
+                        <div style="display:none;">
+                            <video controls style="width:100%;max-width:100%;border-radius:10px;background:#111;">
+                                <source src="lesson5.mp4" type="video/mp4">
+                                متصفحك لا يدعم تشغيل الفيديو.
+                            </video>
+                        </div>
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--secondary-color),var(--primary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            عرض التكليف
+                        </button>
+                        <div style="display:none;">
+                            <strong>التكليف:</strong>
+                            <p>أضف نموذج تواصل بسيط إلى صفحتك.</p>
+                        </div>
+                    </div>
+                </details>
+            </li>
+            <li style="margin-bottom:1.5rem;">
+                <details style="border:1px solid var(--primary-color);border-radius:10px;overflow:hidden;background:rgba(30,30,40,0.95);box-shadow:0 2px 12px rgba(0,0,0,0.10);">
+                    <summary style="font-size:1.15rem;color:var(--primary-color);font-weight:bold;cursor:pointer;padding:1rem 1.2rem;outline:none;transition:background 0.2s;">
+                        الحصة 6: أساسيات Flexbox
+                    </summary>
+                    <div style="padding:1.2rem 1.5rem 1.5rem 1.5rem;display:flex;flex-direction:column;gap:1.2rem;">
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--primary-color),var(--secondary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            مشاهدة الحصة
+                        </button>
+                        <div style="display:none;">
+                            <video controls style="width:100%;max-width:100%;border-radius:10px;background:#111;">
+                                <source src="lesson6.mp4" type="video/mp4">
+                                متصفحك لا يدعم تشغيل الفيديو.
+                            </video>
+                        </div>
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--secondary-color),var(--primary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            عرض التكليف
+                        </button>
+                        <div style="display:none;">
+                            <strong>التكليف:</strong>
+                            <p>رتب عناصر الصفحة باستخدام Flexbox.</p>
+                        </div>
+                    </div>
+                </details>
+            </li>
+            <li style="margin-bottom:1.5rem;">
+                <details style="border:1px solid var(--primary-color);border-radius:10px;overflow:hidden;background:rgba(30,30,40,0.95);box-shadow:0 2px 12px rgba(0,0,0,0.10);">
+                    <summary style="font-size:1.15rem;color:var(--primary-color);font-weight:bold;cursor:pointer;padding:1rem 1.2rem;outline:none;transition:background 0.2s;">
+                        الحصة 7: أساسيات Grid
+                    </summary>
+                    <div style="padding:1.2rem 1.5rem 1.5rem 1.5rem;display:flex;flex-direction:column;gap:1.2rem;">
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--primary-color),var(--secondary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            مشاهدة الحصة
+                        </button>
+                        <div style="display:none;">
+                            <video controls style="width:100%;max-width:100%;border-radius:10px;background:#111;">
+                                <source src="lesson7.mp4" type="video/mp4">
+                                متصفحك لا يدعم تشغيل الفيديو.
+                            </video>
+                        </div>
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--secondary-color),var(--primary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            عرض التكليف
+                        </button>
+                        <div style="display:none;">
+                            <strong>التكليف:</strong>
+                            <p>استخدم Grid لتقسيم الصفحة إلى أعمدة وصفوف.</p>
+                        </div>
+                    </div>
+                </details>
+            </li>
+            <li style="margin-bottom:1.5rem;">
+                <details style="border:1px solid var(--primary-color);border-radius:10px;overflow:hidden;background:rgba(30,30,40,0.95);box-shadow:0 2px 12px rgba(0,0,0,0.10);">
+                    <summary style="font-size:1.15rem;color:var(--primary-color);font-weight:bold;cursor:pointer;padding:1rem 1.2rem;outline:none;transition:background 0.2s;">
+                        الحصة 8: الألوان والخطوط
+                    </summary>
+                    <div style="padding:1.2rem 1.5rem 1.5rem 1.5rem;display:flex;flex-direction:column;gap:1.2rem;">
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--primary-color),var(--secondary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            مشاهدة الحصة
+                        </button>
+                        <div style="display:none;">
+                            <video controls style="width:100%;max-width:100%;border-radius:10px;background:#111;">
+                                <source src="lesson8.mp4" type="video/mp4">
+                                متصفحك لا يدعم تشغيل الفيديو.
+                            </video>
+                        </div>
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--secondary-color),var(--primary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            عرض التكليف
+                        </button>
+                        <div style="display:none;">
+                            <strong>التكليف:</strong>
+                            <p>جرّب تغيير ألوان وخطوط الصفحة باستخدام CSS.</p>
+                        </div>
+                    </div>
+                </details>
+            </li>
+            <li style="margin-bottom:1.5rem;">
+                <details style="border:1px solid var(--primary-color);border-radius:10px;overflow:hidden;background:rgba(30,30,40,0.95);box-shadow:0 2px 12px rgba(0,0,0,0.10);">
+                    <summary style="font-size:1.15rem;color:var(--primary-color);font-weight:bold;cursor:pointer;padding:1rem 1.2rem;outline:none;transition:background 0.2s;">
+                        الحصة 9: التحويلات والانتقالات
+                    </summary>
+                    <div style="padding:1.2rem 1.5rem 1.5rem 1.5rem;display:flex;flex-direction:column;gap:1.2rem;">
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--primary-color),var(--secondary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            مشاهدة الحصة
+                        </button>
+                        <div style="display:none;">
+                            <video controls style="width:100%;max-width:100%;border-radius:10px;background:#111;">
+                                <source src="lesson9.mp4" type="video/mp4">
+                                متصفحك لا يدعم تشغيل الفيديو.
+                            </video>
+                        </div>
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--secondary-color),var(--primary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            عرض التكليف
+                        </button>
+                        <div style="display:none;">
+                            <strong>التكليف:</strong>
+                            <p>أضف تأثيرات انتقالية وتحويلية على عناصر الصفحة.</p>
+                        </div>
+                    </div>
+                </details>
+            </li>
+            <li style="margin-bottom:1.5rem;">
+                <details style="border:1px solid var(--primary-color);border-radius:10px;overflow:hidden;background:rgba(30,30,40,0.95);box-shadow:0 2px 12px rgba(0,0,0,0.10);">
+                    <summary style="font-size:1.15rem;color:var(--primary-color);font-weight:bold;cursor:pointer;padding:1rem 1.2rem;outline:none;transition:background 0.2s;">
+                        الحصة 10: مشروع نهائي
+                    </summary>
+                    <div style="padding:1.2rem 1.5rem 1.5rem 1.5rem;display:flex;flex-direction:column;gap:1.2rem;">
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--primary-color),var(--secondary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            مشاهدة الحصة
+                        </button>
+                        <div style="display:none;">
+                            <video controls style="width:100%;max-width:100%;border-radius:10px;background:#111;">
+                                <source src="lesson10.mp4" type="video/mp4">
+                                متصفحك لا يدعم تشغيل الفيديو.
+                            </video>
+                        </div>
+                        <button onclick="this.nextElementSibling.style.display='block';this.style.display='none';" 
+                                style="background:linear-gradient(90deg,var(--secondary-color),var(--primary-color));color:#fff;font-weight:bold;border:none;border-radius:25px;padding:0.7rem 2rem;font-size:1rem;cursor:pointer;transition:background 0.2s;">
+                            عرض التكليف
+                        </button>
+                        <div style="display:none;">
+                            <strong>التكليف:</strong>
+                            <p>أنشئ صفحة ويب متكاملة تجمع كل ما تعلمته.</p>
+                        </div>
+                    </div>
+                </details>
+            </li>
+        </ul>
+        <div style="text-align:center;margin-top:2.5rem;">
+            <a href="https://wa.me/201067765058" class="nav-link" style="font-size:1.1rem;padding:0.7rem 2.5rem;border-radius:30px;background:linear-gradient(90deg, var(--primary-color) 60%, var(--secondary-color) 100%);color:#fff;font-weight:bold;box-shadow:none;">
+                التواصل مع المدرب
+            </a>
+        </div>
+    </div>
+
+    
+</body>
+</html>
