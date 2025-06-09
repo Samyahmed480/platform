@@ -7,50 +7,62 @@
         <title>Samy-Ahmed</title>
         <link rel="stylesheet" href="style.css">
     </head>
+
     <body>
-    <nav>
-        <div class="logo">
-          
-            <span>Samy Ahmed</span>
-        </div>
-        <div class="nav-links">
-     
-            <a href="https://samyahmed480.github.io/Samy-Ahmed/" class="nav-link">للتواصل  </a>
-            <input placeholder="بحث" type="search">
-          
-        </div>
+        <nav>
+            <div class="logo">
+
+                <span>Samy Ahmed</span>
+            </div>
+            <div class="nav-links">
+
+                <a href="https://samyahmed480.github.io/Samy-Ahmed/" class="nav-link">للتواصل </a>
+                <input placeholder="بحث" type="search">
+
+            </div>
         </nav>
         <h1>الكورسات </h1>
-        
+
         <div class="teachers-container">
             <div class="card">
-                <img src="Html,Css.jpg" alt="Teacher 1">
-                <h2>كورس برمجة المواقع</h2>
-                <h3>html , css</h3>
-                <a href="course-content.html">الدخول للكورس</a>
-                <a href="https://wa.me/201067765058" style="background:linear-gradient(90deg,#1ecb4f,#0a7d2c);color:#fff;font-weight:bold;border-radius:25px;padding:0.5rem 1.5rem;box-shadow:none;">الاشتراك في الكورس </a>
+                <img src="Html,Css.jpg" alt="كورس برمجة المواقع"
+                    style="border-radius:16px;box-shadow:0 4px 16px #007bff33;max-width:170px;margin:0 auto 1.1rem auto;display:block;">
+                <h2 style="font-size:1.35rem;color:var(--primary-color);margin-bottom:0.3rem;">كورس برمجة المواقع</h2>
+                <h3 style="font-size:1.08rem;color:#b3d1ff;opacity:0.92;margin-bottom:0.7rem;">HTML &amp; CSS</h3>
+                <div
+                    style="margin:0.5rem 0 1.1rem 0;display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+                    <span
+                        style="background:linear-gradient(90deg,#1ecb4f,#0a7d2c);color:#fff;padding:0.45rem 1.3rem;border-radius:22px;font-size:1.13rem;font-weight:bold;box-shadow:0 2px 12px #1ecb4f33;letter-spacing:0.5px;">السعر:
+                        250 جنيه</span>
+                </div>
+                <a href="course-content.html" class="nav-link"
+                    style="margin-bottom:0.7rem;background:linear-gradient(90deg, var(--primary-color) 60%, var(--secondary-color) 100%);font-size:1.08rem;">الدخول
+                    للكورس</a>
+                <a href="https://wa.me/201067765058"
+                    style="background:linear-gradient(90deg,#1ecb4f,#0a7d2c);color:#fff;font-weight:bold;border-radius:25px;padding:0.5rem 1.5rem;box-shadow:0 2px 12px #1ecb4f33;font-size:1.08rem;display:inline-block;">الاشتراك
+                    في الكورس</a>
             </div>
         </div>
-        
-       
-            <script>
-document.querySelector('input[type="search"]').addEventListener('input', function() {
-    const query = this.value.trim().toLowerCase();
-    const courses = document.querySelectorAll('.teachers-container > div');
-    courses.forEach(course => {
-        const text = course.textContent.toLowerCase();
-        if (text.includes(query)) {
-            course.style.display = '';
-        } else {
-            course.style.display = 'none';
-        }
-    });
-});
-</script>
+
+
+        <script>
+            document.querySelector('input[type="search"]').addEventListener('input', function () {
+                const query = this.value.trim().toLowerCase();
+                const courses = document.querySelectorAll('.teachers-container > div');
+                courses.forEach(course => {
+                    const text = course.textContent.toLowerCase();
+                    if (text.includes(query)) {
+                        course.style.display = '';
+                    } else {
+                        course.style.display = 'none';
+                    }
+                });
+            });
+        </script>
 
 
 
-   
+
     </body>
 
 </html>
