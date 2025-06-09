@@ -63,10 +63,6 @@ document.addEventListener('DOMContentLoaded', function () {
         e.preventDefault();
         return false;
     });
-    setInterval(function () {
-        if (window.outerHeight - window.innerHeight > 100) {
-            alert("يرجى إغلاق أداة الفحص!");
-            // يمكنك هنا إعادة تحميل الصفحة أو إخفاء المحتوى إذا أردت
-        }
+ 
     }, 1000);
 });
